@@ -14,7 +14,7 @@ def annuity_plan(PMT, R, n, t):
     return A
 
 #Input
-P = float(input("Enter your principal:"))
+P = float(input("Enter your principal: "))
 R = float(input("Enter your rate (in percentage ): "))
 T = float(input("Enter time (in years):"))
 t = T
@@ -28,5 +28,5 @@ print("Amount: ", simple_interest)
 print("\nCompound Interest:")
 print("Amount: ", compound_interest)
 
-print("Annuity plan:")
+print("\nAnnuity plan:")
 print("Amount: ", annuity_plan)
