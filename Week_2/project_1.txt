@@ -1,0 +1,35 @@
+PSUEDOCODE FOR STORE CHECKOUT AFTER PURCHASE
+
+Start
+define string name
+name = input(Enter your full name)
+print = "Items available: \neggs(200) \nmilk(600) \ndrinks(500) \nwater(200) \bread(1500)"
+define eggs, milk, drinks, water, bread:
+eggs = 200
+a = int(input(How many eggs: ))
+milk = 600
+b = int(input(How many milks: ))
+drinks = 500
+c = int(input(How many drinks: ))
+water = 200
+d = int(input(How many water: ))
+bread = 1500
+e = int(input(How many breads: ))
+amount = eggs * a + milk * b + drinks * c + water * d + bread * eggs
+print(f"Eggs {eggs} {a}")
+print(f"Milk {milk} {b}")
+print(f"Drinks {drinks} {c}")
+print(f"Water {water} {d}")
+print(f"Bread {bread} {e}")
+print("Your total purchase amount is: ", amount)
+print = "Payment method:"
+print = "cash(1) \ncard(2)"
+payment = int(input("Select the above payment plans: "))
+if payment == 1
+    print(name)
+    print = "Thank you for your purhcase!"
+else if payment == 2
+    card_number = int(input(Input 4 digit card number:))
+    print(name)
+    print = "Thank you for your purhcase!"
+End
